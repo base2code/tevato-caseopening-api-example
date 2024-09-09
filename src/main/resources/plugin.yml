@@ -2,3 +2,9 @@ name: tevato-caseopening-api-example
 version: '${project.version}'
 main: de.base2code.example.ApiExample
 api-version: '1.21'
+
+depend: [CaseOpening]
+
+commands:
+  casegive:
+    permission: "caseopening.admin"
